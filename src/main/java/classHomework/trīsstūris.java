@@ -21,26 +21,26 @@ public class trīsstūris {
     }
 
     public boolean irVienādmaluTrīsstūris() {
-        boolean isVienādmalu;
+        boolean irVienādmalu;
         if (malaA == malaB && malaB == malaC) {
             System.out.println("Trīsstūris ir vienādmalu!");
-            isVienādmalu = true;
+            irVienādmalu = true;
         } else {
             System.out.println("Trīsstūris nav vienādmalu!");
-            isVienādmalu = false;
+            irVienādmalu = false;
         }
-        return isVienādmalu;
+        return irVienādmalu;
     }
 
     public boolean irVienādsānuTrīsstūris() {
-        boolean isVienādsānu;
+        boolean irVienādsānu;
         if (malaA == malaB || malaB == malaC || malaA == malaC) {
             System.out.println("Trīsstūris ir vienādsānu!");
-            isVienādsānu = true;
+            irVienādsānu = true;
         } else {
             System.out.println("Trīsstūris nav vienādsānu!");
-            isVienādsānu = false;
+            irVienādsānu = false;
         }
-        return isVienādsānu;
+        return irVienādsānu;
     }
 }
